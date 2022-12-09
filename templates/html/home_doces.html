@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces | Céu Azul</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo/estilo_home.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='imagem/favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+        <header>
+            <h1>Céu Azul <a href="/cadastro" class="user"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></h1>
+            <p>É sempre um prazer atendê-lo</p>
+        </header>
+    <nav>
+        <a href="bebidas">Bebidas</a>
+        <a href="comidas">Comidas</a>
+        <a href="doces">Doces</a>
+        <a href="mesas">Finalizar</a>
+    </nav>
+    <main>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Brigadeiro
+                    </h2>
+                    <span class="preco">
+                        R$2,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/doces/brigadeiro.jpg); background-size: contain;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_doces') }}" method="post">
+                            <button class="btn" value=2.99 name="brigadeiro">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Chocolate Quente
+                    </h2>
+                    <span class="preco">
+                        R$3,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/doces/chocolate.jfif); background-size: contain;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_doces') }}" method="post">
+                            <button class="btn" value=3.99 name="chocolate">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Milkshake
+                    </h2>
+                    <span class="preco">
+                        R$1,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/doces/milkshake.jfif); background-size: contain;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_doces') }}" method="post">
+                            <button class="btn" value=1.99 name="milkshake">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Mousse de Maracuja
+                    </h2>
+                    <span class="preco">
+                        R$4,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/doces/mousse.png); background-size: contain;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_doces') }}" method="post">
+                            <button class="btn" value=4.99 name="mousse">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Pudim de leite
+                    </h2>
+                    <span class="preco">
+                        R$5,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/doces/pudim.jpg); background-size: contain;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_doces') }}" method="post">
+                            <button class="btn" value=5.99 name="pudim">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Raspadinha
+                    </h2>
+                    <span class="preco">
+                        R$2,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/doces/raspadinha.jpg); background-size: contain;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_doces') }}" method="post">
+                            <button class="btn" value=2.99 name="raspadinha">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div class="boxs">
+                <img src="{{ url_for('static', filename='imagem/logo.png') }}" alt="Logo" width="200px">
+            </div>
+            <div class="boxs">
+                <h2>Paginas</h2>
+                <ul>
+                    <li><a href="comidas">Home</a></li>
+                    <li><a href="/suporte">Suporte</a></li>
+                </ul>
+            </div>
+            <div class="boxs">
+                <h2>Sobre-nós</h2>
+                <ul>
+                    <li><a href="/termos">Sobre a empresa</a></li>
+                    <li><a href="#">O que fazemos</a></li>
+                </ul>
+            </div>
+            <div class="boxs">
+                <h2>contatos</h2>
+                <ul>
+                    <li><a href="https://github.com/GabrielKleber" target="_blank">GitHub</a></li>
+                    <li><a href="https://wa.me/558381958797" target="_blank">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy;2022 Copyright - Céu Azul</p>
+        </div>
+    </footer>
+</body>
+</html>

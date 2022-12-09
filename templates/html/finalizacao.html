@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalização | Céu Azul</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='imagem/favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo/estilo_index.css') }}">
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Conta do usuario {{nome}}</h1><br><br>
+            <p><strong>Preço da compra: R${{preco_final}}</strong></p>
+            <p>Número da mesa: <strong>{{comp}}</strong></p><br>
+            <h5>Sua senha de confirmação:</h5>
+            <h3>{{senha_confir}}</h3><br>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas | Céu Azul</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo/estilo_home.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='imagem/favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+        <header>
+            <h1>Céu Azul <a href="/cadastro" class="user"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></h1>
+            <p>É sempre um prazer atendê-lo</p>
+        </header>
+    <nav>
+        <a href="bebidas">Bebidas</a>
+        <a href="comidas">Comidas</a>
+        <a href="doces">Doces</a>
+        <a href="mesas">Finalizar</a>
+    </nav>
+    <main>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Cuscuz Recheado
+                    </h2>
+                    <span class="preco">
+                        R$63,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/almoco/cuscuz_recheado.png); background-size: cover;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_comidas') }}" method="post">
+                            <button class="btn" value=63.99 name="cuscuz">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Galinhada
+                    </h2>
+                    <span class="preco">
+                        R$24,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/almoco/galinhada.png); background-size: cover;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_comidas') }}" method="post">
+                            <button class="btn" value=24.99 name="galinhada">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Feijoada
+                    </h2>
+                    <span class="preco">
+                        R$38,90
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/almoco/feijoada.png); background-size: cover;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_comidas') }}" method="post">
+                            <button class="btn" value=38.90 name="feijoada">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Tapioca
+                    </h2>
+                    <span class="preco">
+                        R$4,99
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/almoco/tapioca.png); background-size: cover;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_comidas') }}" method="post">
+                            <button class="btn" value=4.99 name="tapioca">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Acaraje
+                    </h2>
+                    <span class="preco">
+                        R$17,00
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/almoco/acaraje.jpg); background-size: cover;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_comidas') }}" method="post">
+                            <button class="btn" value=17.00 name="acaraje">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Vaca Atolada
+                    </h2>
+                    <span class="preco">
+                        R$28,00
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/almoco/vaca_atolada.png); background-size: cover;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_comidas') }}" method="post">
+                            <button class="btn" value=28.00 name="vaca">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <h1 class="diviso">Especiais do chef Ipoeira!</h1>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Buchada(Especial do chef)
+                    </h2>
+                    <span class="preco">
+                        R$19,00
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/almoco/buchada.jpg); background-size: cover;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_comidas') }}" method="post">
+                            <button class="btn" value=19.00 name="buchada">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="card">
+                <div class="titulo_card">
+                    <h2 class="titulo">
+                        Rubacão(Muito saboroso!)
+                    </h2>
+                    <span class="preco">
+                        R$66,00
+                    </span>
+                </div>
+                <div class="imagem" style="background-image: url(../../static/imagem/almoco/rubacao.png); background-size: cover;"></div>
+                <div class="descricao">
+                    <p class="texto_des">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est atque aperiam quis quos quasi fuga ea, facilis nisi excepturi quo at error odio sunt blanditiis natus neque sequi. Sit.
+                    </p>
+                    <div class="compra">
+                        <form action="{{ url_for('home_comidas') }}" method="post">
+                            <button class="btn" value=66.00 name="rubacao">
+                                Comprar
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div class="boxs">
+                <img src="{{ url_for('static', filename='imagem/logo.png') }}" alt="Logo" width="200px">
+            </div>
+            <div class="boxs">
+                <h2>Paginas</h2>
+                <ul>
+                    <li><a href="comidas">Home</a></li>
+                    <li><a href="/suporte">Suporte</a></li>
+                </ul>
+            </div>
+            <div class="boxs">
+                <h2>Sobre-nós</h2>
+                <ul>
+                    <li><a href="/termos">Sobre a empresa</a></li>
+                    <li><a href="#">O que fazemos</a></li>
+                </ul>
+            </div>
+            <div class="boxs">
+                <h2>contatos</h2>
+                <ul>
+                    <li><a href="https://github.com/GabrielKleber" target="_blank">GitHub</a></li>
+                    <li><a href="https://wa.me/558381958797" target="_blank">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy;2022 Copyright - Céu Azul</p>
+        </div>
+    </footer>
+</body>
+</html>

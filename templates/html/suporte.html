@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte | Céu Azul</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo/estilo_suporte.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='imagem/favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="imagem">
+            <h1>Bem-vindo ao nosso Suporte tecnico</h>
+            <img src="{{ url_for('static', filename='imagem/suporte.svg') }}" alt="Bem-vindo ao suporte">
+        </div>
+        <div class="menu">
+            <div class="conteudo">
+                <h1>O que deseja fazer?</h1>
+                <form action="{{ url_for('suporte') }}" method="post">
+                    <p class="pergunta">[1] Como usar o site</p>
+                    <p class="pergunta">[2] Reclamação do site</p>
+                    <p class="pergunta">[3] Informar bug ou erro do site</p>
+                    <p class="pergunta">[4] Como funciona a forma de pagamento</p>
+                    <p class="pergunta">[5] Outro problema</p><br><br>
+                    <p><a href="/home/menu/comidas">Voltar ao site</a></p>
+                    <div class="problema">
+                        <label for="Problema">Qual é o problema</label>
+                        <input type="number" name="problema" placeholder="Insira aqui">
+                    </div>
+                    <button class="botao">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,140 @@
+[
+     {
+          "comida": "cuscuz",
+          "preco": 63.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "galinhada",
+          "preco": 24.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "feijoada",
+          "preco": 38.9,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "tapioca",
+          "preco": 4.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "acaraje",
+          "preco": 17.0,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "vaca atolada",
+          "preco": 28.0,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "buchada",
+          "preco": 19.0,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "rubacao",
+          "preco": 66.0,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "cafe",
+          "preco": 1.49,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "cha",
+          "preco": 1.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "suco de limao",
+          "preco": 0.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "suco de laranja",
+          "preco": 0.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "suco de tamarindo",
+          "preco": 0.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "refrigerante de coca",
+          "preco": 1.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "refrigerante de laranja",
+          "preco": 1.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "refrigerante de guarana",
+          "preco": 1.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "brigadeiro",
+          "preco": 2.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "chocolate quente",
+          "preco": 3.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "milkshake",
+          "preco": 1.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "mousse de maracuja",
+          "preco": 4.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "mousse de maracuja",
+          "preco": 4.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "pudim de leite",
+          "preco": 5.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     },
+     {
+          "comida": "raspadinha",
+          "preco": 2.99,
+          "email": "gabriel@gmail.com",
+          "senha_conf": 907890
+     }
+]

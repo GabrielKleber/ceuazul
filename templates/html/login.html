@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Céu Azul</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo/estilo_login.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='imagem/favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="menu">
+            <div class="conteudo">
+                <h1>Faça seu login aqui</h1>
+                {% set mensagens = get_flashed_messages() %}
+                {% if mensagens %}
+                    <div class="alerta">
+                        {{mensagens[0]}}
+                    </div>
+                {% endif %}
+                <p><a href="/">Voltar ao site</a></p>
+                <p><a href="/termos">Termos de Segurança</a></p>
+                <form action="{{ url_for('login') }}" method="post">
+                        <div class="usuario">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" placeholder="E-mail">
+                        </div>
+                        <div class="usuario">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" placeholder="Senha">
+                        </div>
+                    <button>Confimar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
